@@ -241,11 +241,11 @@ namespace Revit.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to An unexpected failure occurred when attempting to convert the surface into a Revit BRep.
+        ///   Looks up a localized string similar to Element cannot be annotated.
         /// </summary>
-        internal static string DynamoSurfaceToRevitBRepFailure {
+        internal static string ElementCannotBeAnnotatedError {
             get {
-                return ResourceManager.GetString("DynamoSurfaceToRevitBRepFailure", resourceCulture);
+                return ResourceManager.GetString("ElementCannotBeAnnotatedError", resourceCulture);
             }
         }
         
@@ -507,6 +507,15 @@ namespace Revit.Properties {
         internal static string NotAdaptiveComponentError {
             get {
                 return ResourceManager.GetString("NotAdaptiveComponentError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You need at least two elements for a dimension..
+        /// </summary>
+        internal static string NotEnoughDataError {
+            get {
+                return ResourceManager.GetString("NotEnoughDataError", resourceCulture);
             }
         }
         
